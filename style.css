@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#searchBar {
+    padding: 10px;
+    width: 50%;
+    font-size: 16px;
+}
+
+#searchResults {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#viewToggle {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#viewToggle button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.grid-view .result-item {
+    width: 200px;
+    margin: 10px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.list-view .result-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#movieDetails, #personDetails {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.page-link {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}

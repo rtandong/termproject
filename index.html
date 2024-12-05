@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Database</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Movie Database</h1>
+        <input type="text" id="searchBar" placeholder="Search for movies, TV shows, or people...">
+    </header>
+    <section id="searchResults">
+        <div id="viewToggle">
+            <button id="gridView">Grid View</button>
+            <button id="listView">List View</button>
+        </div>
+        <div id="results" class="grid-view"></div>
+        <div id="pagination"></div>
+    </section>
+    <section id="movieDetails" class="hidden"></section>
+    <section id="personDetails" class="hidden"></section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
