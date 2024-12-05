@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMDb Movie & TV Search</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>TMDb Movie & TV Search</h1>
+    </header>
+
+    <div id="searchSection">
+        <input type="text" id="searchTerm" placeholder="Search for movies or TV shows...">
+        <button id="searchButton">Search</button>
+        <button id="trendingButton">Discover Trending</button>
+        <button id="popularButton">Popular Movies/TV Shows</button>
+<button id="topRatedButton">Top Rated Movies/TV Shows</button>
+
+    </div>
+
+    <div id="viewToggle">
+        <button id="gridView" class="active">Grid View</button>
+        <button id="listView">List View</button>
+    </div>
+
+    <div id="results" class="grid-view"></div>
+    <div id="pagination"></div>
+
+    <div id="movieDetails" class="hidden">
+        <div class="details-content"></div>
+        <button id="backButton">Back to Results</button>
+
+        </div>
+        
+    </div>
+</body>
+</html> 
+
+ 
