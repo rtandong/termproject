@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
     const API_KEY = '396991ad33eeee38676b0e26e655c333'; // Your TMDb API key
     const MAX_RESULTS_PER_PAGE = 10;
